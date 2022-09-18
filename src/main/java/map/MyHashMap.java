@@ -105,7 +105,7 @@ public class MyHashMap<K, V> extends MyMap<K, V> {
     }
 
     @SuppressWarnings("unchecked")
-    private MyNode<K,V> getFirstNodeFromBucket(int bucketIndex) {
-        return (MyNode<K,V>) buckets[bucketIndex];
+    private MyNode<K, V> getFirstNodeFromBucket(int bucketIndex) {
+        return (MyNode<K, V>) buckets[bucketIndex];
     }
 }

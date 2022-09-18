@@ -7,7 +7,7 @@ public abstract class MyMap<K, V> {
         this.size = 0;
     }
 
-    public int size(){
+    public int size() {
         return size;
     }
 

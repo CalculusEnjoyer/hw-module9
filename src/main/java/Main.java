@@ -4,11 +4,9 @@ import collection.list.MyArrayList;
 import collection.list.MyLinkedList;
 import map.MyHashMap;
 
-import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
-        MyLinkedList<String> testLinked= new MyLinkedList<>();
+        MyLinkedList<String> testLinked = new MyLinkedList<>();
         testLinked.add("test1");
         testLinked.add("test2");
         testLinked.add("test3");
@@ -22,7 +20,7 @@ public class Main {
         String testValue = testLinked.get(2);
         testLinked.clear();
 
-        MyArrayList<String> testArrayList= new MyArrayList<>();
+        MyArrayList<String> testArrayList = new MyArrayList<>();
         testArrayList.add("test1");
         testArrayList.add("test2");
         testArrayList.add("test3");
@@ -62,7 +60,7 @@ public class Main {
         testQueue.push("test1");
         testQueue.push("test23");
         testQueue.push("test234");
-        testQueue.peek();
+        testValue = testQueue.peek();
         testValue = testQueue.poll();
         testSize = testQueue.size();
         testStack.clear();
